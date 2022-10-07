@@ -7,13 +7,11 @@
   }
 body {
     font-family: var(--default-font-family);
-    margin: 100px 0;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #595c60;
     font-family: var(--heading-font-family);
     font-weight: bold;
-    margin: 0;
 }
 h1 {
     font-size: 96px;
@@ -23,13 +21,12 @@ h2 {
     font-size: 64px;
 }
 h3 {
-    font-size: 20px;
-    opacity: 0.7;
+    font-size: 44px;
 }
 p {
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 30px;
 }
 .navigation-links {
     display: flex;
@@ -111,8 +108,9 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    text-decoration: none;
   }
-
+  
   .btn-branding-outline {
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
@@ -121,6 +119,7 @@ p {
     line-height: 27px;
     padding: 15px 30px;
   }
+
   .foto {
     max-width: 85%;
     border-radius: 30px;
@@ -129,7 +128,7 @@ p {
   .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
   }
   
   .hero p {
@@ -147,7 +146,7 @@ p {
   }
 
   .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
   }
   
   .content h1 {
@@ -163,7 +162,6 @@ p {
   .content h3 {
     font-size: 24px;
     line-height: 1.5;
-  
     font-family: var(--default-font-family);
   }
   
